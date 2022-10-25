@@ -1,4 +1,4 @@
-# periodic-bot-template
+# Task Scheduler in Golang
 
 Basic implementation of a Task Scheduler in Golang.
 This can be used to schedule function executions periodically or as a onetime task.
