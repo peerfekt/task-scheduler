@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/peerfekt/periodic-tasks/task"
+	"github.com/peerfekt/task-scheduler/task"
 )
 
 type Scheduler struct {

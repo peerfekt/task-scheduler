@@ -1,4 +1,4 @@
-module github.com/peerfekt/periodic-tasks
+module github.com/peerfekt/task-scheduler
 
 go 1.17
 

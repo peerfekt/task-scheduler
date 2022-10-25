@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/peerfekt/periodic-tasks/scheduler"
-	"github.com/peerfekt/periodic-tasks/task"
+	"github.com/peerfekt/task-scheduler/scheduler"
+	"github.com/peerfekt/task-scheduler/task"
 )
 
 func main() {
@@ -27,7 +27,7 @@ func addExampleTask(s *scheduler.Scheduler) {
 func addExampleOneTimeTask(s *scheduler.Scheduler) {
 	task := task.NewOneTimeTask()
 	task.SetCallback(func() {
-		log.Println("Iam overwriting the default task function and iam onetime :)")
+		log.Println("Iam overwriting the default task function and iam executed once :)")
 	})
 	task.SetDate(time.Now().Add(time.Second * 5))
 
